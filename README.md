@@ -4,4 +4,4 @@ Odin Project Assignment, a recipe website.
 
 ## Overview
 
-TODO.
+A simple website containing three **identical** recipes of food.
