@@ -1,5 +1,6 @@
 body {
     font-family: sans-serif;
+    font-size: large;
     background-color: #1e1f20;
     color: white;
     padding: 10px
@@ -11,12 +12,19 @@ i {
 
 a {
     color: orange;
-    padding: 10px;
+    text-decoration: none;
+}
 
+
+
+li {
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 li:hover {
-    font-size: larger;
+    font-size: x-large;
 }
 
 img {
@@ -26,8 +34,24 @@ img {
     display: block;
     border-radius: 10px;
     box-shadow: 10px 10px 10px black;
+    border: solid black;
+
 }
 
 h1 {
     text-shadow: 10px 5px 5px black;
+}
+
+ul, ol, p {
+    border: solid black;
+    box-shadow: 10px 10px 15px black;
+}
+
+.recipe-list {
+    font-size: larger;
+}
+
+p {
+    padding: 10px;
+    text-align: center;
 }
